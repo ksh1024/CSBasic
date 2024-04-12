@@ -22,6 +22,12 @@ namespace CSBasic
             Console.WriteLine((long)a + b); //b가 자동으로 long으로 변환됨
             Console.WriteLine(a + (long)b); //a가 자동으로 long으로 변환됨
             Console.WriteLine((long)a + (long)b);
+
+            //자료형 최소, 최대 값 출력
+            Console.WriteLine(int.MaxValue);
+            Console.WriteLine(int.MinValue);
+            Console.WriteLine(double.MaxValue);
+            Console.WriteLine(double.MinValue);
         }
     }
 }
