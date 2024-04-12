@@ -16,7 +16,12 @@ namespace CSBasic
             //오버플로우 연습
             int a = 2000000000; //20억
             int b = 1000000000; //10억
-            Console.WriteLine(a + b); 
+            Console.WriteLine(a + b);
+
+            //오버플로우 연습2
+            Console.WriteLine((long)a + b); //b가 자동으로 long으로 변환됨
+            Console.WriteLine(a + (long)b); //a가 자동으로 long으로 변환됨
+            Console.WriteLine((long)a + (long)b);
         }
     }
 }
